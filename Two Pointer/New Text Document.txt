@@ -1,0 +1,10 @@
+The two pointer technique is used to make algorithms that take O(n^2) time complexity use up O(n).
+
+The two pointers can be used in same direction to:
+  - scan data
+  - fast and slow pointers to find middle element in a linked list
+  - fast and slow pointers to find cycles in a linked list
+
+The two pointers can be used in opposite direction to:
+  - find two numbers in a sorted array that sum up to target
+  - tell if a number or a string is palindrome or not
