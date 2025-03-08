@@ -1,11 +1,14 @@
 // if sum is basically less than target, then move the low pointer up which will basically make the sum bigger and if it is smaller make high pointer -1 which will decrease size of the sum 
+// Time complexity : O(n)
+// Space Complexity : O(1)
+
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int low = 0;
         int high = numbers.length-1;
         int result[] = {0,0};
 
-        for(int i=0;i<numbers.length;i++){
+        while(low<high){
             if(numbers[low]+numbers[high]==target){
                 result[0]=low+1;
                 result[1]=high+1;
