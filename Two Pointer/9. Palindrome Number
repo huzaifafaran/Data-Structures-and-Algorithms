@@ -1,4 +1,7 @@
 // With a time complexity of O(n), convert int to string, then match last element with first then second element with second last, if at any time match doesn't happen return false else true
+// Time Complexity: O(n)
+// Space Complexity: O(n) (Array created of n size from integer)
+
 
 class Solution {
     public boolean isPalindrome(int x) {
