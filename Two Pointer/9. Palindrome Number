@@ -1,0 +1,22 @@
+// With a time complexity of O(n), convert int to string, then match last element with first then second element with second last, if at any time match doesn't happen return false else true
+
+class Solution {
+    public boolean isPalindrome(int x) {
+        String y = Integer.toString(x);
+        int low = 0;
+        int high = y.length() - 1; 
+
+
+        for (int i = 0; i < y.length(); i++) { 
+            if (y.charAt(low) == y.charAt(high)) {
+                low = low + 1;
+                high = high - 1; 
+            }
+            else{
+            return false;
+            }
+        }
+
+        return true;
+    }
+}
