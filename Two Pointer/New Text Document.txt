@@ -8,3 +8,9 @@ The two pointers can be used in same direction to:
 The two pointers can be used in opposite direction to:
   - find two numbers in a sorted array that sum up to target
   - tell if a number or a string is palindrome or not
+
+✅ Reduces unnecessary comparisons (by eliminating redundant checks).
+✅ Transforms O(n²) solutions into O(n), significantly improving performance.
+✅ Uses constant extra space (O(1)), making it memory efficient.
+
+The two-pointer technique is commonly used in problems involving sorted arrays, linked lists, and string manipulations, making it one of the most versatile algorithmic strategies.
